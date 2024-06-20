@@ -5,12 +5,16 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import pages.CadastroEmail;
+import pages.CadastroIdade;
 import pages.CadastroNome;
 
 
 public class CadastroNomeTest {
  static WebDriver driver;
  static  CadastroNome cadastroNome;
+ static CadastroIdade cadastroIdade;
+ static CadastroEmail cadastroEmail;
 
     @Before
     public void setUp() throws Exception {
@@ -25,6 +29,14 @@ public class CadastroNomeTest {
         cadastroNome= new CadastroNome(driver);
 
         cadastroNome.preencherCampo();
+
+        cadastroIdade = new CadastroIdade(driver);
+
+        cadastroIdade.preencherCampo();
+
+        cadastroEmail = new CadastroEmail(driver);
+
+        cadastroEmail.preencherCampo();
     }
 
 

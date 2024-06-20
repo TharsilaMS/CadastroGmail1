@@ -20,9 +20,10 @@
 
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-chrome-driver</artifactId>
-            <version>4.20.0</version>
+            <artifactId>selenium-java</artifactId>
+            <version>4.20.0</version> <!-- substitua pela versão mais recente -->
         </dependency>
+
 
 
         <dependency>
