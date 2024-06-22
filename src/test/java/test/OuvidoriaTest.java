@@ -18,7 +18,7 @@ static OuvidoriaPage ouvidoriaPage;
 
     @Test
     public void test1(){
-        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://qi.edu.br/ouvidoria/");
 
